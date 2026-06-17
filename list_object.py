@@ -149,6 +149,12 @@ v2=v1*2
 print(v2)
 print(type(v2))
 
+print("__________________")
+l1=["bhanu",'suchi',"nandu"]
+l2=l1*3
+print(l2)
+print(type(l2))
+
 print("\n\n_______4.deleting____________\n")
 print("_______A.remove______\n")
 o=[1,2,'bhanu',"bag",90]
