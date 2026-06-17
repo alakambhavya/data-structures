@@ -143,7 +143,7 @@ l3=l1+l2
 print(l3)
 print(type(l3))
 
-print("\n\n_______H.repetition______________\n")
+print("\n\n_______g.repetition______________\n")
 v1=[1,2,3]
 v2=v1*2
 print(v2)
