@@ -136,6 +136,14 @@ n.sort(reverse=True)
 print(n)
 print(type(n))
 
+print("\n\n_________F.concatination___________\n")
+l1=[10,20,30]
+l2=[40,50,60]
+l3=l1+l2
+print(l3)
+print(type(l3))
+
+
 print("\n\n_______4.deleting____________\n")
 print("_______A.remove______\n")
 o=[1,2,'bhanu',"bag",90]
