@@ -222,6 +222,19 @@ print(bs[0])
 print(bs[1])
 print(bs[2][0])
 print(bs[2][1])
+print(type(bs))
+
+print("_______________")
+name=["alakam","bhavya","sree",100,"145",["bhanu","sanju"]]
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+print(name[5][0])
+print(name[5][1])
+print(type(name))
+
 
 
 
