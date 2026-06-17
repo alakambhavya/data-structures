@@ -5,7 +5,7 @@ l=[]
 print(l)
 print(type(l))
 
-print("\n\n____B.creating list objectby using some known elements_____\n")
+print("\n\n____B.creating list object by using some known elements_____\n")
 l=[20,5,'bhavya',"suchi",'bhanu',142,"1234"]
 print(l)
 print(type(l))
@@ -94,6 +94,13 @@ e=[1,2,3,10,20,'book']
 e.append([1,1000])
 print(e)
 print(type(e))
+print("___________")
+m=[10,20]
+for i in range(4):
+	data=input("enter data : ")
+	m.append(data)
+print(m)
+
 
 print("\n\n________B.extend________\n")
 f=['suchi','bhaskar','nandu',"sanju"]
@@ -234,6 +241,18 @@ print(name[4])
 print(name[5][0])
 print(name[5][1])
 print(type(name))
+
+print("_______________")
+
+print("\n\n________maximum value________\n")
+z=10,20,90,14234,100,100
+print(max(z))
+print(type(z))
+
+print("\n\n________manimum value_______\n")
+y=-1,0,23,21,-12,-0.5
+print(min(y))
+print(type(y))
 
 
 
