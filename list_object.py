@@ -174,6 +174,58 @@ q.clear()
 print(q)
 print(type(q))
 
+print("\n\n___________5.copy methods_______________\n")
+print("__________A.aliasing __________\n")
+x1=[10,20,30,40,50]
+x2=x1
+print(x1)
+print(x2)
+x2[2]=100
+print(x1)
+print(x2)
+print(type(x2))
+
+print("\n\n__________B.cloning___________\n")#creating exact duplicate objects is called cloning.
+print("_______1.slice operator______\n")
+l1=[1,2,3,4,5]
+l2=l1[1:3:1]
+print(l1)
+print(l2)
+l2[0]=100
+print(l1)
+print(l2)
+print(type(l2))
+
+print("\n_________2.copy()_______________\n")
+l1=[100,200,300,400]
+l2=l1.copy()
+print(l1)
+print(l2)
+l2[3]=7000
+print(l1)
+print(l2)
+print(type(l2))
+
+print("\n\n__________6.list comprehension________\n")
+l=[2*x for x in range(10) if x%2==0]
+print(l)
+print(type(l))
+
+print("\n_________no if condition _______\n")
+bv=[2*x for x in range(3)]
+print(bv)
+print(type(bv))
+
+print("\n_____nested list_________\n")
+bs=[10,20,[100,200]]
+print(bs[0])
+print(bs[1])
+print(bs[2][0])
+print(bs[2][1])
+
+
+
+
 
 
 
