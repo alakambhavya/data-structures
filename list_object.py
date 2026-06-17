@@ -94,7 +94,9 @@ e=[1,2,3,10,20,'book']
 e.append([1,1000])
 print(e)
 print(type(e))
+
 print("___________")
+
 m=[10,20]
 for i in range(4):
 	data=input("enter data : ")
@@ -157,6 +159,7 @@ print(v2)
 print(type(v2))
 
 print("__________________")
+
 l1=["bhanu",'suchi',"nandu"]
 l2=l1*3
 print(l2)
@@ -232,6 +235,7 @@ print(bs[2][1])
 print(type(bs))
 
 print("_______________")
+
 name=["alakam","bhavya","sree",100,"145",["bhanu","sanju"]]
 print(name[0])
 print(name[1])
@@ -254,6 +258,13 @@ y=-1,0,23,21,-12,-0.5
 print(min(y))
 print(type(y))
 
+print("\n\n_______comparing varaibles__________\n")
+a="alakam",'bhavya'
+b=20,30
+c="suchi",'bhanu'
+d=a,b,c
+print(d)
+print(type(d))
 
 
 

@@ -91,13 +91,18 @@ y=-1,0,23,6754,0b1010101,-1234,1234
 print(min(y))
 print(type(y))
 
-print("\n\n_______comparing varaibles__________\n")
+print("\n\n_______I.comparing varaibles__________\n")
 a=10,20
 b=20,30
 c=30,40,50
 d=a,b,c
 print(d)
 print(type(d))
+
+print("\n\n_____J.tuple comprehension_____\n")#tuple comprehension is not possible
+t=(2*x for x in range(10))
+print(t)
+print(type(t))
 
 
 
