@@ -143,6 +143,11 @@ l3=l1+l2
 print(l3)
 print(type(l3))
 
+print("\n\n_______H.reretition______________\n")
+v1=[1,2,3]
+v2=v1*2
+print(v2)
+print(type(v2))
 
 print("\n\n_______4.deleting____________\n")
 print("_______A.remove______\n")
