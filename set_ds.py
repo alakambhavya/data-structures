@@ -156,6 +156,11 @@ print("\n\n_______C.issuperset()_______\n")
 a={1,2,3}
 b={1,2,3}
 print(b.issuperset(a))
+c={1,2,3,4}
+d={1,6,8,9}
+print(c.issuperset(d))
+
+
 
 
 
