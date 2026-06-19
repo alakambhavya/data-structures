@@ -117,7 +117,7 @@ print(s1.difference(s2))
 print("or")
 print(s1-s2)
 
-print("\n\n_____symmetric difference____\n")
+print("\n\n_____symmetric difference b/w sets____\n")
 s1={1,2,3,4,5}
 s2={1,3,5,7,9}
 print(s1.symmetric_difference(s2))
@@ -153,9 +153,9 @@ b={9,8,7}
 print(a.isdisjoint(b))
 
 print("\n\n_______C.issuperset()_______\n")
-a={1,2,3}
+a={1,2,3,4,5,6}
 b={1,2,3}
-print(b.issuperset(a))
+print(a.issuperset(b))
 c={1,2,3,4}
 d={1,6,8,9}
 print(c.issuperset(d))
